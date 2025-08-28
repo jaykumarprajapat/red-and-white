@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(222, 212, 212, 0.625);
+}
+header{
+    margin: 10px;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+p{
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    display: flex;
+    gap: 20px;
+}
+.box1{
+    background-color: rgb(255, 255, 255);
+    height: 1060px;
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 4px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    display: inline-block;
+    list-style-position: inside;
+
+}
+.top{
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 10px;
+     margin-top: 20px;
+     
+}
+li{
+    margin-left: 30px;
+
+}
+ul li:first-child{
+    color: rgb(18, 18, 136);
+    margin-top: 15px;
+}
+.box2{
+    background-color: rgb(255, 255, 255);
+    height: 1060px;
+    width: 1277px;
+    box-shadow: 0px 0px 4px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    display: inline-block;
+    padding: 20px;
+}
+.post_one{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text::first-letter{
+    color: red;
+    font-size: 30px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.text::selection{
+    background-color: yellow;
+    color: red;
+}
+img{
+    border: 2px solid black;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+hr{
+    color: gray;
+}
+.last li::selection{
+     background-color: yellow;
+    color: red;
+}
+.last li:first-child{
+    margin-top: 15px;
+    background-color: rgba(0, 255, 42, 0.408);
+}
+.last li:nth-child(2){
+    background-color: rgba(0, 255, 255, 0.678);
+}
+.last li:nth-child(3){
+    background-color: rgba(0, 255, 42, 0.408);
+    color: red;
+}
+.last li:nth-child(4){
+    background-color: rgba(0, 255, 255, 0.678);
+}

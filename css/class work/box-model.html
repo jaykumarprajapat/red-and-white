@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            /*padding and border increase size of box */
+            /* width :200 -> 304
+            height:300 ->404 */
+
+            /* this property will not increase size of box when you apply margins,paddings and borders */
+            box-sizing: border-box;
+
+            height: 300px;
+            width: 200px;
+
+            border: 2px solid red;
+
+            /* margin-top: 50px;
+            margin-left: 100px;
+            margin-bottom: 200px; */
+
+            /* top-bottom left-right */
+            /* margin: 50px 100px; */
+
+            /* margin left-right auto will center your element */
+            margin: 50px auto;
+
+            /* all side */
+            /* margin: 50px; */
+
+
+            padding: 50px;
+        }
+
+        span{
+            margin: 200px;
+            border: 2px solid red;
+            padding: 50px;
+            width: 500px;
+            height: 800px;
+
+            border: 2px dotted green;
+            border: 2px dashed green;
+            border: 2px double green;
+            
+
+            border-radius: 50px;
+            
+        }
+        .circle{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 2px solid ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias expedita inventore dolorum rem quo numquam perspiciatis! Et, ipsam est illo nostrum commodi nulla sunt officiis.
+    </div>
+    <!-- block tag have some margins by default -->
+    <h1>hello</h1>
+    <!-- inline tag dosen't support top-bottom margin ,height and width-->
+    <span>hii span</span>
+
+    <div class="circle"></div>
+</body>
+</html>

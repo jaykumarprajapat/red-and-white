@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* universal selector */
+        *{
+            /* font-size: 50px; */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* attribute selector */
+        a[target = "_blank"]{
+            color: red;
+        }
+        /* group selector */
+        h1,li,.head{
+            background-color: burlywood;
+            margin: 50px;
+        }
+        ul > li{
+            color: green;
+        }
+        /* select all h1 inside div */
+        div  h1{
+
+        }
+        /* select only direct child h1 */
+        div >  h1{
+
+        }
+        /* general sibling (same parent not neccessary to be after) */
+        /* .head ~ span{
+            color: red;
+        } */
+         /* next sibling (same parent but neccessary to be after) */
+        .head + span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>selectors in html</h1>
+
+    <ul>
+        <li>
+            basic selector
+            <ul>
+                <li>ID  selector</li>
+                <li>class selector</li>
+                <li>tag name selector</li>
+                <li>attribute  selector</li>
+            </ul>
+        </li>
+        <li>Group selector / multiple selector</li>
+        <li>Universal seelctor
+            <ul>
+                <li>it's always mentionewd in starting of css with * symbol</li>
+                <li>it's applied to all elemets</li>
+            </ul>
+        </li>
+        <li>child selectors
+            <ul>
+                <li>child selector (>)</li>
+                <li>Descendt selector (space)</li>
+            </ul>
+        </li>
+        <li>sibling selectors
+            <ul>
+                <li>next sibling (+)</li>
+                <li>general sibling (~) </li>
+            </ul>
+        </li>
+    </ul>
+
+    <ol>
+        <li>list - 1</li>
+        <li>list - 2</li>
+        <li>list - 3</li>
+    </ol>
+    <a href="" target="">link -1</a>
+    <a href="" target="_blank">link -2</a>
+    <a href="">link -3</a>
+
+    <div>
+        <h1 class="head">hello h1 inside div</h1>
+       
+        <span>hello span1</span>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <span>
+            hello span2
+        </span>
+    </div>
+
+    <span>hello span outside div</span>
+
+</body>
+</html>

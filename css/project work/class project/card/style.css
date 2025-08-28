@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #00FCAC;
+}
+.main{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    border-radius: 5px;
+   }
+.box1{
+    background-color: rgb(0, 255, 0);
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    top: 100px;
+    left: 400px;
+    box-shadow: 0px 0px 1px rgb(155, 155, 155);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+} 
+.box2{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    height: 80px;
+    width: 300px;
+    top: 550px;
+    left: 400px;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+} 
+.share{
+    margin: 10px;
+}
+.img{
+    position: absolute;
+    top: 130px;
+    left: 330px;
+}
+.img img{
+    height: 360px;
+}
+.small{
+    border: 1px solid rgb(78, 78, 78);
+    height: 60px;
+    width: 60px;
+}
+.small img{
+    height: 55px;
+    width: 55px;
+}
+.box3{
+    height: 600px;
+    width: 330px;
+    position: absolute;
+    left: 739px;
+}
+.first{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: "Nata Sans", sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.sed{
+    font-size: 11px;
+    color: gray;
+    font-family: "Nata Sans", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.price{
+    color: red;
+    margin-top: 50px;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+.price span{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.boxs{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.boxe{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+.boxes{
+    height: 50px;
+    width: 50px;
+}
+.boxs img{
+    height: 43px;
+}
+
+.BEN{
+    margin-top: 45px;
+    font-size: 13px;
+    color: gray;
+    font-family: "Nata Sans", sans-serif;
+    letter-spacing: 1px;
+}
+ul{
+    margin-top: 10px;
+}
+li{
+    list-style-position: inside;
+    margin: 5px;
+}
+button{
+    background-color: red;
+    color: white;
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}

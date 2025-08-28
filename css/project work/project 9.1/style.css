@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_left{
+           padding: 50px;
+           line-height: 30px;
+}
+
+.search{
+    margin: 15px 0px;
+    padding: 9px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    display: inline-block;
+    border: none;
+    } 
+    
+
+header{
+    background-image: url(canva.png);
+    height: 230px;
+}
+
+
+.product_found{
+    margin-left: 20px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.select1{
+    margin-left: 1080px;
+    padding: 7px;
+    background-color: white;
+    border: 2px solid rgb(205, 180, 180);
+    border-radius: 5px;
+    width: 70px;
+    font-weight: bold;
+}
+.select2{
+    margin-left: 5px;
+    padding: 7px;
+    background-color: white;
+    border: 2px solid rgb(205, 180, 180);
+    border-radius: 5px;
+    width: 150px;
+    font-weight: bold;
+}
+.box{
+    border: 2px solid rgb(224, 213, 213);
+    padding: 5px;
+    width: 320px;
+    height: 515px;
+    margin: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 7px rgb(73, 70, 70);
+    margin-left: 23px;
+}
+.space{
+    margin-top: 30px;
+}
+.red{
+    border: 2px solid red ;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    width: 45px;
+    padding:5px;
+    border-radius: 5px;
+    margin: 7px;
+}
+.green{
+    border: 2px solid rgb(26, 121, 29) ;
+    color: white;
+    background-color: rgb(26, 121, 29);
+    font-weight: bold;
+    width: 45px;
+    padding:5px;
+    border-radius: 5px;
+    margin: 7px;
+}
+.img{
+    text-align: center;
+}
+img{
+    width: 220px;
+    margin: 30px;
+}
+
+div + p{
+    color: rgb(146, 130, 109);
+    font-size: 14px;
+    margin-left: 10px;
+}
+.product{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.producthi{
+    margin-left: 10px;
+    margin-top: 14px;
+    font-size: 14px;
+}
+del{
+    color: rgb(144, 159, 172);
+}
+.doler{
+    margin: 15px;
+    display: inline-block;
+}
+button{
+    background-color: rgb(46, 179, 46);
+    border-radius: 5px;
+    border: 4px solid rgb(46, 179, 46);
+    padding: 5px;
+    margin-left: 150px;
+    color: white;
+    font-weight: bold;
+}
+.not_discount{
+    background-color: white;
+    border: 2px solid white;
+    width: 45px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 7px;
+}

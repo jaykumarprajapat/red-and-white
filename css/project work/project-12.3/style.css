@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+}
+nav{
+    /* background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(89, 89, 89, 0.72) 100%); */
+    margin: 0px 50px;
+    padding: 18px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    display: flex;
+    position: absolute;
+    /* position: sticky; */
+    top:0px;
+    left:0px;
+    background-color: rgba(128, 128, 128, 0);
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+}
+.nav_left ul>li:nth-child(2) a{
+    color: blue;
+}
+.img1 img{
+    height: 30px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 30px;
+    color: white;
+}
+li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+li a:hover{
+    color: blue;
+    
+}
+li img{
+    width: 16px;
+}
+.nav_right{
+     align-items: center;
+     display: flex;
+     color: white;
+     gap: 30px;
+}
+.search{
+    margin-left: 380px;
+    margin-top: 5px;
+}
+.search:hover{
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(253, 253, 253);
+    border-radius: 50%;
+}
+.select{
+    margin-top: 5px;
+}
+.select{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+}
+.select:hover{
+     color: rgb(0, 0, 0);
+    background-color: white;
+    border: 5px solid rgb(253, 253, 253);
+    border-radius: 10px;
+}
+.more:hover{
+     color: rgb(0, 0, 0);
+    background-color: white;
+    border: 5px solid rgb(253, 253, 253);
+    border-radius: 10px;
+}
+.user{
+    background-color: rgba(78, 104, 219, 0.659);
+    border-radius: 50%;
+    padding: 4px;
+    
+}
+.user:hover{
+    border: 3px solid white;
+}
+.join{
+    background-color: rgb(71, 71, 239);
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.join:hover{
+    background-color: rgb(147, 147, 247);
+}
+.one{
+    background-image: url(image/back\ the\ pick\ up.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+   /* height: 100vh;
+    width: 100%; */
+}
+.color{
+    /* background: #000000;
+    background: linear-gradient(90deg, rgb(5, 0, 11) 0%, rgba(89, 89, 89, 0.132) 100%); */
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(89, 89, 89, 0) 100%);
+}
+.prime{
+  padding-top: 160px;
+  padding-left: 50px;
+}
+.green{
+    color: rgb(0, 255, 132);
+    padding-top: 15px;
+}
+.join_prime{
+    padding-top: 20px;
+}
+.join_prime button{
+      background-color: rgb(81, 81, 81);
+      font-size: 25px;
+      color: white;
+      border-radius: 10px;
+      border: none;
+      padding: 6px 15px;
+}
+.join_prime button:hover,.plus button:hover{
+    background-color: rgb(224, 224, 224);
+    color: black;
+}
+.plus{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.plus button{
+    background-color: rgb(81, 81, 81);
+      font-size: 50px;
+      color: white;
+      border-radius: 50%;
+      border: none;
+      padding: 5px 15px;
+}
+.hi{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.text{
+    color: white;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+hr{
+    border: 5px solid rgba(2, 0, 36, 1);
+}
+section{
+    background-color: rgba(2, 0, 36, 1);
+}

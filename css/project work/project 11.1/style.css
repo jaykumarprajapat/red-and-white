@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    padding-left: 22px;
+    padding-top: 22px;
+}
+section{
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+   padding-left: 22px;
+   padding-top: 22px;
+   padding-right: 22px;
+    margin-top: 30px;
+}
+
+.flex {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    
+}
+.text{
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.yellow{
+    background-color: yellow;
+    height: 300px;
+    width: 1470px;
+    margin-top: 30px;
+    display: flex;
+}
+.box{
+    background-color: rgb(255, 216, 165);
+    height: 110px;
+    width: 110px;
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+}
+li{
+    margin-left: 30px;
+}
+.A{
+     margin-left: 30px;
+}
+.one{
+    display: flex;
+    flex-wrap: wrap;
+}
+.two{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.three{
+     display: flex;
+    flex-direction: row;
+}
+.four{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.yellow1{
+    background-color: yellow;
+    height: 220px;
+    margin-top: 30px;
+    display: flex;
+}
+.five{
+    height: 110px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.six{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    height: 330px;
+}
+.seven{
+    display: flex;
+    flex-flow: row wrap;
+    height: 350px;
+}
+.eight{
+    display: flex;
+    flex-flow:row wrap-reverse;
+    height: 350px;
+}
+.nine{
+    display: flex;
+    flex-flow:row nowrap;
+    height: 350px;
+}
+.ten{
+    display: flex;
+    flex-flow:column wrap;
+    height: 330px;
+}
+.eleven{
+    display: flex;
+    flex-flow:column wrap-reverse;
+    height: 330px;
+}
+.telwen{
+    display: flex;
+    flex-flow:column nowrap;
+    height: 330px;
+}

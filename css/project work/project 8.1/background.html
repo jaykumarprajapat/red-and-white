@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        h1{
+            font-size: 30px;
+            font-weight: 100;
+        }
+        .h1 {
+            text-align: center;
+            background-color: rgba(201, 210, 218, 0.521);
+            font-size: 25px;
+            padding: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .div2 > h1{
+            color: white;
+        }    
+
+        .div1 {
+            background-image: url(image2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 650px;
+            color: rgb(255, 255, 255);
+        }
+
+        .div2 {
+            background: #db5a1f;
+            background: linear-gradient(117deg, rgba(219, 90, 31, 1) 0%, rgba(222, 109, 53, 1) 17%, rgba(222, 147, 93, 1) 57%, rgba(224, 72, 72, 1) 100%);
+            height: 400px;
+            width: 100%;
+        }
+        .box{
+            border: 2px solid yellow;
+            padding: 20px;
+        }
+        .parent_box{
+            text-align: center;
+            margin: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <h1 class="h1">Welcome to the Parallax World</h1>
+    </div>
+    <div class="div2">
+        <h1>Linear Gradient Section</h1>
+    </div>
+    <div class="div2" style="background: #00146b;
+     background: radial-gradient(circle, rgba(0, 20, 107, 1) 0%, rgba(0, 43, 255, 1) 29%, rgba(8, 0, 120, 1) 100%);">
+        <h1>Radial Gradint Section</h1>
+    </div>
+    <div class="div2" style="/* https://grabient.com/HQJgbAjANKEKwxABmsOBOALDMB2EOAHNqAMxiKFIyma5TUjBJZSbASHpA?style=angularGradient&steps=13&angle=180 */
+
+background: conic-gradient(from 180deg, rgba(218, 197, 116, 1.000) 0.000deg, rgba(217, 182, 86, 1.000) 30.000deg, rgba(213, 163, 55, 1.000) 60.000deg, rgba(208, 143, 23, 1.000) 90.000deg, rgba(200, 121, 0, 1.000) 120.000deg, rgba(190, 97, 0, 1.000) 150.000deg, rgba(178, 72, 0, 1.000) 180.000deg, rgba(165, 47, 0, 1.000) 210.000deg, rgba(150, 22, 0, 1.000) 240.000deg, rgba(134, 0, 0, 1.000) 270.000deg, rgba(116, 0, 0, 1.000) 300.000deg, rgba(98, 0, 0, 1.000) 330.000deg, rgba(80, 0, 0, 1.000) 360.000deg)">
+     <h1>Conic Gradient Section</h1>
+    </div>
+    <div class="box">This block uses two classes: <b>text block</b>and <b>highlight</b></div>
+    <div class="parent_box">
+           <h1>Parent Box Heading</h1>
+           <p style="color: gray;">This paragraph is a child element styled inside the parent</p>
+    </div>
+</body>
+
+</html>

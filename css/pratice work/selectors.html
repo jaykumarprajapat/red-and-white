@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        ul > li{
+            color: green;
+        }
+
+        /* select all h1 inside div */
+        div  h1
+        {
+            font-size: 40px;
+        }
+
+        /* select only direct child h1 */
+        div >  h1{
+                color: rgb(100, 59, 89);
+        }
+
+        /* general sibling (same parent not neccessary to be after) */
+        .head ~ span{
+            color: red;
+        }
+         /* next sibling (same parent but neccessary to be after) */
+        .head + span{
+            color: rgb(20, 0, 133);
+        }
+    </style>
+</head>
+<body>
+    <h1>selectors in html</h1>
+
+    <ul>
+        <li>child selectors
+            <ul>
+                <li>child selector (>)</li>
+                <li>Descendt selector (space)</li>
+            </ul>
+        </li>
+        <li>sibling selectors
+            <ul>
+                <li>next sibling (+)</li>
+                <li>general sibling (~) </li>
+            </ul>
+        </li>
+    </ul>
+
+    <ol>
+        <li>list - 1</li>
+        <li>list - 2</li>
+        <li>list - 3</li>
+    </ol>
+    <a href="" target="">link -1</a>
+    <a href="" target="_blank">link -2</a>
+    <a href="">link -3</a>
+
+    <div>
+        <h1 class="head">hello h1 inside div</h1>
+        <h1>hello</h1>
+       
+        <span>hello span1</span>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <span>
+            hello span2
+        </span>
+    </div>
+    <div><h1>Lorem ipsum dolor sit amet.</h1></div>
+    <h1>hel</h1>
+
+    <span>hello span outside div</span>
+
+</body>
+</html>

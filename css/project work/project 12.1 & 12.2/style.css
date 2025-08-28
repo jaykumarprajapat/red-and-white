@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.929);
+    margin: 0px 50px;
+    padding: 18px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    display: flex;
+    position: sticky;
+    top:0px;
+    left:0px;
+    z-index: 2;
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+}
+.img1 img{
+    height: 30px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 30px;
+    color: white;
+}
+li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 10px solid rgb(253, 253, 253);
+    border-radius: 10px;
+    
+}
+li img{
+    width: 16px;
+}
+.nav_right{
+     align-items: center;
+     display: flex;
+     color: white;
+     gap: 30px;
+}
+.search{
+    margin-left: 380px;
+    margin-top: 5px;
+}
+.search:hover{
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(253, 253, 253);
+    border-radius: 50%;
+}
+.select{
+    margin-top: 5px;
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+}
+button:hover{
+     color: rgb(0, 0, 0);
+    background-color: white;
+    border: 5px solid rgb(253, 253, 253);
+    border-radius: 10px;
+}
+.more:hover{
+     color: rgb(0, 0, 0);
+    background-color: white;
+    border: 5px solid rgb(253, 253, 253);
+    border-radius: 10px;
+}
+.user{
+    background-color: rgba(78, 104, 219, 0.659);
+    border-radius: 50%;
+    padding: 4px;
+    
+}
+.user:hover{
+    border: 3px solid white;
+}
+.join{
+    background-color: rgb(71, 71, 239);
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.join:hover{
+    background-color: rgb(147, 147, 247);
+}
+body{
+    background: #000000;
+background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 49%, rgba(30, 0, 255, 1) 100%);
+}
+section{
+    display: flex;
+    z-index: 1;
+}
+.sec_left{
+    color: white;
+    margin-left: 70px;
+    position: relative;
+}
+.big_text{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.small_text{
+    font-size: 21px;
+    margin-top: 40px;
+}
+.Sign_in{
+    background-color: white;
+    color: black;
+    width: 190px;
+    padding: 18px 13px;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-size: 18px;
+    transition: 1s;
+}
+.Sign_in:hover{
+    transform: scale(1.1);
+    background-color: rgb(188, 188, 188);
+}
+.sec_right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    top: 0px;
+    left: 30px;
+    height: 500px;
+    width: 780px;
+    padding-top: 20px;
+}
+.sec_right img{
+    height: 230px;
+    width: 250px;
+    border: 5px solid rgb(92, 92, 255);
+    border-radius: 15px;
+}
+.sect_left{
+     color: white;
+    margin-left: 70px;
+    position: relative; 
+    margin-top:200px;   
+}
+.rent_now{
+    background-color: white;
+    color: black;
+    width: 110px;
+    padding: 18px 13px;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-size: 18px;
+    transition: 1s;
+}
+.rent_now:hover{
+    transform: scale(1.1);
+    background-color: rgb(188, 188, 188);
+}
+.sect_right{
+    background-image: url(image/Screenshot\ \(45\).png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 780px;
+    position: relative;
+    top: 200px;
+    left: 120px;
+}
+.one{
+    margin-top: 200px;
+    background-color: rgb(0, 0, 22);
+}
+.secti_left{
+      color: white;
+    margin-left: 70px;
+    position: relative;
+}
+.secti_right{
+     display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+    top: 0px;
+    left: 100px;
+    height: 700px;
+    width: 700px;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+.secti_right img{
+    height: 160px;
+    width: 210px;
+    border-radius: 15px;
+}
+.secti_right img:hover{
+    box-shadow: 0px 0px 15px gray;
+    border-radius: 15px;
+}
+.last{
+    background-color: rgb(42, 42, 42);
+    text-align: center;
+}
+.prime img{
+    height: 60px;
+    padding-top: 20px;
+}
+.link a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(0, 149, 183);
+}
+.copy_right{
+    padding: 20px;
+    color: gray;
+}

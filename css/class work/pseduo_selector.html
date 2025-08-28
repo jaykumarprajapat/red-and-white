@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            width: 100px;
+        }
+        p::first-letter{
+            font-size: 50px;
+            color: red;
+            font-weight: bold;
+            
+        }
+        p::first-line{
+            color: green;
+        }
+        li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: red;
+        }
+        li:nth-child(2){
+            color: yellow;
+        }
+
+        li{
+            color: chartreuse;
+        }
+        ::marker{
+            color: green;
+        }
+
+        p::selection{
+            background-color: red;
+            /* font-size: 50px; */
+        }
+        button{
+            background-color: transparent;
+            border: 2px solid red;
+        }
+        button:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ratione dolores, sequi voluptatem ex maiores?
+
+    </p>
+
+    <ul>
+        <li>list-1</li>
+        <li>list-2</li>
+        <li>list-3</li>
+        <li>list-4</li>
+        <li>list-5</li>
+    </ul>
+
+    <button>Click me</button>
+</body>
+</html>

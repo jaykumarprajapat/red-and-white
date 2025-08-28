@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: gray;
+    /* text-align: center; */
+    padding-top: 20px;
+}
+section{
+    margin-top: 50px;
+    background-color: gray;
+    /* text-align: center; */
+    padding-top: 20px;
+    padding-right: 118px;
+}
+.flex{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+li{
+    margin-top: 15px;
+    margin-left: 200px;
+    color: white;
+}
+.yellow{
+    background-color: yellow;
+    height: 300px;
+    width: 1200px;
+    margin-left: 180px;
+    margin-top: 20px;
+    display: flex;
+}
+.box{
+    border: 2px solid black;
+    height: 100px;
+    text-align: center;
+    background-color: peachpuff;
+}
+.boxes{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: peachpuff;
+}
+.one{
+    flex-basis: auto;
+}
+.two{
+    flex-basis: 20px;
+}
+.three{
+    flex-basis: 30%;
+}
+.one1{
+    flex-grow: auto;
+}
+.two2{
+    flex-grow: 1;
+}
+.three3{
+    flex-grow: 2;
+}
+.one11{
+    flex-shrink:0;
+}
+.two22{
+    flex-shrink:1;
+}
+.three33{
+    flex-shrink:2;
+}
+.one111{
+    order: 0;
+    padding: 0px 10px;
+}
+.two222{
+    order: 0;
+    padding: 0px 10px;
+}
+.three333{
+    order: 1;
+    padding: 0px 10px;
+}
+.one1111{
+    align-self: center;
+
+}
